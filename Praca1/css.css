@@ -1,0 +1,85 @@
+body {
+    background-image: url(jb.png);
+    background-position:bottom;
+    background-repeat:repeat-y;
+    background-color: aqua;
+
+}
+ul {
+    list-style-type: none;
+    background-color: gray;
+    position: sticky;
+    padding: 2%;
+}
+li {
+    padding: 2%;
+    display: inline;
+    position: relative;
+    left: 25%;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    
+}
+li:hover {
+    color: red;
+
+}
+form{
+position: relative; 
+text-align: center;
+color: green;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+}
+.but {
+    background: -webkit-linear-gradient(blue, rgb(97, 179, 255) );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+.JA {
+    position: relative;
+    left: 15%;
+    background: -webkit-linear-gradient(yellow, rgb(234, 255, 142));
+    margin-right: 70%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.NUSZ {
+    background: -webkit-linear-gradient(red, rgb(243, 117, 117));
+    position: relative;
+    left: 30%;
+    margin-right: 65%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.BUD {
+    background: -webkit-linear-gradient(blue, rgb(97, 179, 255) );
+    position: relative;
+    left: 45%;
+    margin-right: 55%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Autor {
+    background-color: green;
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: zmen 4s ease-in;
+    animation: ruchj 4s infinite ease-in both;
+    
+}
+@keyframes ruchj {
+    50%{
+        transform: translateX(100px);
+    }
+ }
+
